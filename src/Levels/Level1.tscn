@@ -1,0 +1,107 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://src/candy_green.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/spawner.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/Levels/Level1.gd" type="Script" id=3]
+[ext_resource path="res://src/UI/view_range.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/UI/Overlay.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/UI/score.gd" type="Script" id=6]
+[ext_resource path="res://Assets/ComicRelief.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="Animation" id=1]
+resource_name = "green_spawner"
+length = 5.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("spawner:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2.5, 5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 40, 45 ), Vector2( 950, 550 ), Vector2( 40, 45 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Level_taxt"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath("Label")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 1 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "queue_free"
+} ]
+}
+
+[sub_resource type="DynamicFont" id=3]
+size = 50
+font_data = ExtResource( 7 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="background" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+mouse_filter = 2
+color = Color( 0.482353, 0.878431, 0.678431, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="overlay" parent="." instance=ExtResource( 5 )]
+margin_left = 0.421936
+margin_top = 0.0988617
+margin_right = 0.421936
+margin_bottom = 0.098877
+script = ExtResource( 6 )
+
+[node name="Spawner_Anim" type="AnimationPlayer" parent="."]
+autoplay = "green_spawner"
+anims/green_spawner = SubResource( 1 )
+
+[node name="Level_Anim" type="AnimationPlayer" parent="."]
+autoplay = "Level_taxt"
+anims/Level_taxt = SubResource( 2 )
+
+[node name="spawner" parent="." instance=ExtResource( 2 )]
+position = Vector2( 40, 45 )
+spawn_item = ExtResource( 1 )
+
+[node name="View_range" parent="." instance=ExtResource( 4 )]
+position = Vector2( 29.5461, 27.1527 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = 408.311
+margin_top = 244.373
+margin_right = 597.311
+margin_bottom = 314.373
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.996078, 0.364706, 0.14902, 1 )
+text = "LEVEL 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}

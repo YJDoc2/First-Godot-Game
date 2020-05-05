@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="candy.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2564">
+      <stop
+         style="stop-color:#2dfc89;stop-opacity:1;"
+         offset="0"
+         id="stop2560" />
+      <stop
+         style="stop-color:#2dfc89;stop-opacity:0;"
+         offset="1"
+         id="stop2562" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6008"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffadb9;stop-opacity:1;"
+         offset="0"
+         id="stop6006" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2564"
+       id="radialGradient2566"
+       cx="160.19449"
+       cy="257.74841"
+       fx="160.19449"
+       fy="257.74841"
+       r="26.190781"
+       gradientTransform="matrix(0.89345585,0,0,1.3058113,16.916556,-72.637214)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2564"
+       id="radialGradient2568"
+       cx="95.98283"
+       cy="217.47207"
+       fx="95.98283"
+       fy="217.47207"
+       r="38.02096"
+       gradientTransform="matrix(0.89345585,0,0,0.7869656,16.916556,56.805382)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2564"
+       id="radialGradient2570"
+       cx="163.10199"
+       cy="184.5837"
+       fx="163.10199"
+       fy="184.5837"
+       r="38.478919"
+       gradientTransform="matrix(0.89345585,0,0,0.81772039,16.916556,47.626259)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5583084"
+     inkscape:cx="243.35758"
+     inkscape:cy="524.88413"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="-13.764381,39.622708"
+       orientation="0,1"
+       id="guide22"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="39.622708,50.113037"
+       orientation="1,0"
+       id="guide24"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#f8c7c7;fill-opacity:0.98529412;fill-rule:nonzero;stroke-width:0.46565887"
+       id="path10"
+       cx="79.650757"
+       cy="69.636703"
+       r="67.735657"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 79.540181,69.747282 c 0,0 -21.742248,-12.604349 -19.122188,-40.221595 C 63.060451,1.6722935 83.25929,2.4336814 83.25929,2.4336814 c 9.080787,-0.6117251 18.95379,2.8114706 20.77348,4.1914775 0,0 -24.320437,6.2648421 -30.977184,26.0511481 -6.940017,20.628269 6.484595,37.070975 6.484595,37.070975 z"
+       id="path20"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsc"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       sodipodi:nodetypes="csccsc"
+       inkscape:connector-curvature="0"
+       id="path26"
+       d="m 79.540181,69.747282 c 0,0 0.126005,-25.131243 25.390509,-36.589018 25.48057,-11.555755 33.18188,3.492903 35.36662,6.509415 2.30397,4.191996 3.67414,9.456613 4.88137,14.205233 -0.96269,1.207032 -16.22121,-12.245197 -36.69829,-8.183287 -21.348437,4.234748 -28.940209,24.057657 -28.940209,24.057657 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       style="opacity:1;fill:#fbabc6;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 79.540181,69.747282 c 0,0 -6.638448,-10.535185 -7.476429,-17.580326 -2.700712,-6.424233 0.893572,-25.72044 7.476429,-30.806955 4.381433,-4.860737 18.312447,-15.6357709 25.000599,-14.4526182 6.89344,1.2194556 13.326,6.9246622 16.25466,9.2364552 6.80393,3.999831 20.38074,23.475184 19.02793,22.024301 -3.93627,-4.221642 -8.49788,-8.09345 -13.28204,-8.755278 -5.02898,-0.695716 -11.26854,-0.786169 -17.98853,2.248864 -5.78056,2.610741 -12.655277,6.114839 -17.129775,10.716216 -4.236214,4.356348 -8.89896,12.256052 -10.21788,17.003207 -1.664964,4.470326 -1.664964,10.366134 -1.664964,10.366134 z"
+       id="path32"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccscsssscc"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       sodipodi:nodetypes="csccsc"
+       inkscape:connector-curvature="0"
+       id="path6264"
+       d="m 79.540181,69.747282 c 0,0 21.030749,-13.758711 44.524689,0.99296 23.69484,14.877773 13.93739,32.579908 13.93739,32.579908 -3.5344,8.38707 -11.02933,15.66856 -13.07991,16.67399 0,0 5.33292,-24.541656 -9.35132,-39.380219 C 100.26195,65.143938 79.540181,69.747282 79.540181,69.747282 Z"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 79.540181,69.747282 c 0,0 22.393919,11.406438 21.275759,39.125138 -1.127716,27.95573 -18.032112,28.07275 -21.708683,28.66885 -4.78023,0.17433 -10.099035,-0.96754 -14.883679,-2.02294 -0.645647,-1.40243 18.228778,-8.98801 23.802456,-29.10626 5.810876,-20.974337 -8.48587,-36.664654 -8.48587,-36.664654 z"
+       id="path6266"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsc"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       sodipodi:nodetypes="cccscsssscc"
+       inkscape:connector-curvature="0"
+       id="path6268"
+       d="m 79.540181,69.747282 c 0,0 12.394704,-1.195864 19.064942,1.221586 6.952667,0.474407 22.575347,12.356914 24.161007,20.523454 2.37325,6.09847 5.7384,23.385778 1.67581,28.828828 -4.18726,5.61011 -12.17467,8.79262 -15.556,10.36998 -6.63084,4.28067 -30.130168,7.65714 -28.226098,7.10064 5.540263,-1.6192 11.049053,-3.95427 13.790256,-7.93067 2.88152,-4.17993 5.766342,-9.71327 6.074992,-17.08038 0.2655,-6.33722 0.22465,-14.05338 -1.875098,-20.118418 C 96.662071,86.9202 91.700425,79.204762 88.052355,75.89315 84.8071,72.396834 79.540181,69.747282 79.540181,69.747282 Z"
+       style="opacity:1;fill:#fbabc6;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 79.540244,69.747335 c 0,0 1.890463,25.060351 -22.373475,38.507965 -24.471404,13.5626 -35.259519,-3.53097 -35.259519,-3.53097 -5.637043,-7.145537 -8.393184,-17.225108 -8.283213,-19.506262 0,0 18.913965,16.522542 38.9992,10.831004 20.939921,-5.933659 26.917007,-26.301737 26.917007,-26.301737 z"
+       id="path6300"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsc"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       sodipodi:nodetypes="csccsc"
+       inkscape:connector-curvature="0"
+       id="path6302"
+       d="m 79.540244,69.747335 c 0,0 -20.803467,14.100056 -44.534968,-0.266321 C 11.07083,54.991822 19.132641,40.133178 20.386343,36.625936 c 2.15605,-4.269969 5.724724,-8.375783 8.95976,-12.055688 1.539827,0.112132 -0.933692,20.302722 13.990699,34.899754 15.559465,15.218162 36.203379,10.27728 36.203379,10.27728 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <path
+       style="opacity:1;fill:#fbabc6;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 79.540244,69.747335 c 0,0 -4.939104,11.430839 -10.277432,16.104024 -3.773314,5.858912 -21.723357,13.799814 -29.640104,11.24411 -6.486272,-0.867206 -23.248932,-6.269826 -26.052975,-12.456003 -2.890116,-6.376013 -1.819184,-14.90715 -1.567298,-18.629805 -0.54584,-7.873642 7.847042,-30.081246 7.414719,-28.145217 -1.257937,5.633283 -1.873821,11.584754 0.284138,15.905533 2.268413,4.541936 5.720331,9.740473 12.022206,13.56878 5.420884,3.293153 12.197166,6.984037 18.522057,8.074652 5.988089,1.032567 15.140365,0.414268 19.802024,-1.180729 4.628852,-1.153031 9.492674,-4.485327 9.492674,-4.485327 z"
+       id="path6304"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccscsssscc"
+       inkscape:export-xdpi="175.27261"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png" />
+    <circle
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       r="67.735657"
+       cy="229.91853"
+       cx="136.75352"
+       id="circle834"
+       style="fill:#aaf4b1;fill-opacity:0.98529412;fill-rule:nonzero;stroke-width:0.46565887" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       sodipodi:nodetypes="csccsc"
+       inkscape:connector-curvature="0"
+       id="path836"
+       d="m 136.64295,230.0291 c 0,0 -21.74225,-12.60434 -19.12219,-40.22159 2.64246,-27.8534 22.8413,-27.092 22.8413,-27.092 9.08078,-0.61174 18.95379,2.81146 20.77348,4.19146 0,0 -24.32044,6.26485 -30.97718,26.05116 -6.94002,20.62827 6.48459,37.07097 6.48459,37.07097 z"
+       style="fill:#00ff17;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       style="fill:#00ff17;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 136.64295,230.0291 c 0,0 0.12601,-25.13124 25.39051,-36.58901 25.48056,-11.55576 33.18188,3.4929 35.36662,6.50941 2.30396,4.192 3.67414,9.45661 4.88137,14.20523 -0.96269,1.20704 -16.22121,-12.24519 -36.69829,-8.18328 -21.34844,4.23475 -28.94021,24.05765 -28.94021,24.05765 z"
+       id="path838"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsc" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       sodipodi:nodetypes="cccscsssscc"
+       inkscape:connector-curvature="0"
+       id="path840"
+       d="m 136.64295,230.0291 c 0,0 -6.63845,-10.53518 -7.47643,-17.58032 -2.70071,-6.42423 0.89357,-25.72044 7.47643,-30.80696 4.38143,-4.86074 18.31244,-15.63577 25.0006,-14.45262 6.89344,1.21946 13.326,6.92467 16.25465,9.23646 6.80393,3.99983 20.38074,23.47518 19.02793,22.0243 -3.93627,-4.22164 -8.49788,-8.09345 -13.28203,-8.75528 -5.02899,-0.69571 -11.26854,-0.78617 -17.98853,2.24887 -5.78056,2.61074 -12.65528,6.11484 -17.12978,10.71621 -4.23621,4.35635 -8.89895,12.25606 -10.21787,17.00321 -1.66497,4.47033 -1.66497,10.36613 -1.66497,10.36613 z"
+       style="opacity:1;fill:url(#radialGradient2570);fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       style="fill:#00ff17;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 136.64295,230.0291 c 0,0 21.03075,-13.75871 44.52469,0.99296 23.69484,14.87778 13.93739,32.57991 13.93739,32.57991 -3.5344,8.38706 -11.02934,15.66855 -13.07992,16.67398 0,0 5.33293,-24.54165 -9.35132,-39.38021 -15.30908,-15.46998 -36.03084,-10.86664 -36.03084,-10.86664 z"
+       id="path842"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsc" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       sodipodi:nodetypes="csccsc"
+       inkscape:connector-curvature="0"
+       id="path844"
+       d="m 136.64295,230.0291 c 0,0 22.39392,11.40644 21.27576,39.12513 -1.12772,27.95574 -18.03211,28.07275 -21.70868,28.66886 -4.78023,0.17432 -10.09904,-0.96754 -14.88368,-2.02295 -0.64565,-1.40243 18.22878,-8.988 23.80245,-29.10625 5.81088,-20.97433 -8.48587,-36.66465 -8.48587,-36.66465 z"
+       style="fill:#00ff17;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       style="opacity:1;fill:url(#radialGradient2566);fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 136.64295,230.0291 c 0,0 12.3947,-1.19586 19.06494,1.22159 6.95267,0.47441 22.57535,12.35691 24.161,20.52345 2.37325,6.09847 5.7384,23.38577 1.67581,28.82883 -4.18726,5.6101 -12.17467,8.79261 -15.55599,10.36997 -6.63084,4.28067 -30.13017,7.65714 -28.2261,7.10064 5.54026,-1.6192 11.04905,-3.95427 13.79025,-7.93067 2.88152,-4.17992 5.76635,-9.71326 6.07499,-17.08038 0.2655,-6.33722 0.22465,-14.05337 -1.87509,-20.11841 -1.98792,-5.7421 -6.94957,-13.45754 -10.59764,-16.76915 -3.24525,-3.49631 -8.51217,-6.14587 -8.51217,-6.14587 z"
+       id="path846"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccscsssscc" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       sodipodi:nodetypes="csccsc"
+       inkscape:connector-curvature="0"
+       id="path848"
+       d="m 136.64301,230.02916 c 0,0 1.89047,25.06034 -22.37347,38.50795 -24.471403,13.5626 -35.259518,-3.53097 -35.259518,-3.53097 -5.637044,-7.14553 -8.393185,-17.2251 -8.283214,-19.50625 0,0 18.913965,16.52254 38.999192,10.831 20.93993,-5.93366 26.91701,-26.30173 26.91701,-26.30173 z"
+       style="fill:#00ff17;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       style="fill:#00ff17;fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 136.64301,230.02916 c 0,0 -20.80346,14.10005 -44.534963,-0.26632 -23.934445,-14.4892 -15.872635,-29.34784 -14.618932,-32.85508 2.156049,-4.26997 5.724723,-8.37579 8.959759,-12.05569 1.539827,0.11213 -0.933691,20.30272 13.990696,34.89975 15.55947,15.21817 36.20338,10.27728 36.20338,10.27728 z"
+       id="path850"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccsc" />
+    <path
+       inkscape:export-filename="/home/yashodhan/Desktop/candy.png"
+       inkscape:export-ydpi="175.27261"
+       inkscape:export-xdpi="175.27261"
+       sodipodi:nodetypes="cccscsssscc"
+       inkscape:connector-curvature="0"
+       id="path852"
+       d="m 136.64301,230.02916 c 0,0 -4.9391,11.43084 -10.27743,16.10402 -3.77331,5.85891 -21.72336,13.79981 -29.640096,11.24411 -6.486277,-0.86721 -23.248936,-6.26983 -26.05298,-12.456 -2.890116,-6.37602 -1.819183,-14.90715 -1.567297,-18.62981 -0.54584,-7.87364 7.847042,-30.08124 7.414718,-28.14521 -1.257936,5.63328 -1.873821,11.58475 0.284139,15.90553 2.268412,4.54194 5.72033,9.74047 12.022205,13.56878 5.420884,3.29315 12.197161,6.98404 18.522051,8.07465 5.98809,1.03257 15.14037,0.41427 19.80203,-1.18073 4.62885,-1.15303 9.49267,-4.48532 9.49267,-4.48532 z"
+       style="opacity:1;fill:url(#radialGradient2568);fill-opacity:1;stroke:none;stroke-width:0.45157102px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

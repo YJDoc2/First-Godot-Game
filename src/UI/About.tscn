@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/theme.tres" type="Theme" id=1]
+[ext_resource path="res://Assets/ComicRelief.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://src/UI/scene_change_btn.tscn" type="PackedScene" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 35
+font_data = ExtResource( 2 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.482353, 0.878431, 0.678431, 1 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -429.0
+margin_top = 97.9767
+margin_right = 429.0
+margin_bottom = 253.977
+custom_fonts/font = SubResource( 1 )
+text = "This is my first game made using Godot Game engine.
+The design of candies is made using Inkscape.
+Nothing Much to tell !"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="." instance=ExtResource( 3 )]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -59.0
+margin_top = 301.467
+margin_right = 59.0
+margin_bottom = 337.467
+text = "Back"
+next_scene_path = "res://src/UI/EndUI.tscn"

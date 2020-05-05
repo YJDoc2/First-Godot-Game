@@ -1,0 +1,51 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/theme.tres" type="Theme" id=1]
+[ext_resource path="res://src/UI/scene_change_btn.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/ComicRelief.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 3 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.482353, 0.878431, 0.678431, 1 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -442.5
+margin_top = 69.3374
+margin_right = 442.5
+margin_bottom = 381.337
+custom_fonts/font = SubResource( 1 )
+text = "This is a simple game in which you have to shoot the candies.
+Green candies will give you 10 points.
+Red candies will take away 10 points.
+If the points become 0, the game will end.
+In each level the visibility scope will get less and less with time.
+All the best !
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="." instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -45.5
+margin_top = 405.473
+margin_right = 45.5
+margin_bottom = 441.473
+text = "Back"
+next_scene_path = "res://src/UI/StartUI.tscn"

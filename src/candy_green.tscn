@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://src/candy_green.gd" type="Script" id=2]
+[ext_resource path="res://src/candy.shader" type="Shader" id=3]
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = ExtResource( 3 )
+shader_param/mouse_position = null
+shader_param/view_range = null
+
+[sub_resource type="StreamTexture" id=3]
+flags = 4
+load_path = "res://.import/candy_green.png-cbf6e0b763871d97ca730810004640d1.stex"
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 31.063
+
+[node name="candy" type="Node2D"]
+material = SubResource( 4 )
+script = ExtResource( 2 )
+
+[node name="candy" type="Sprite" parent="."]
+use_parent_material = true
+scale = Vector2( 0.0615554, 0.0615554 )
+texture = SubResource( 3 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 2 )
+[connection signal="input_event" from="Area2D" to="." method="_on_Area2D_input_event"]

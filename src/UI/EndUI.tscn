@@ -1,0 +1,87 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Assets/theme.tres" type="Theme" id=1]
+[ext_resource path="res://Assets/ComicRelief.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://src/UI/EndUI.gd" type="Script" id=3]
+[ext_resource path="res://src/UI/scene_change_btn.tscn" type="PackedScene" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+font_data = ExtResource( 2 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.482353, 0.878431, 0.678431, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -279.0
+margin_top = 175.488
+margin_right = 279.0
+margin_bottom = 245.488
+custom_fonts/font = SubResource( 1 )
+text = "HOPE YOU HAD FUN !!!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score_card" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -85.5
+margin_top = 263.912
+margin_right = 85.5
+margin_bottom = 299.912
+custom_fonts/font = SubResource( 2 )
+text = "Final Score %s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="." instance=ExtResource( 4 )]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -76.0
+margin_top = 323.768
+margin_right = 76.0
+margin_bottom = 359.768
+text = "Play Again"
+next_scene_path = "res://src/Levels/Level1.tscn"
+
+[node name="Button2" type="Button" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -76.5
+margin_top = 436.678
+margin_right = 76.5
+margin_bottom = 472.678
+text = "Exit"
+
+[node name="Button3" parent="." instance=ExtResource( 4 )]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -76.0
+margin_top = 378.182
+margin_right = 76.0
+margin_bottom = 414.182
+text = "About"
+next_scene_path = "res://src/UI/About.tscn"
+[connection signal="button_up" from="Button2" to="." method="_on_Button2_button_up"]

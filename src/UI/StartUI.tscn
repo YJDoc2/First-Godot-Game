@@ -1,0 +1,74 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/ComicRelief.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Assets/theme.tres" type="Theme" id=2]
+[ext_resource path="res://src/UI/scene_change_btn.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/UI/StartUI.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 2 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.482353, 0.878431, 0.678431, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="ColorRect" instance=ExtResource( 3 )]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -81.5
+margin_top = 319.555
+margin_right = 81.5
+margin_bottom = 355.555
+text = "Instructions"
+next_scene_path = "res://src/UI/Instructions.tscn"
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -175.5
+margin_top = 142.936
+margin_right = 175.5
+margin_bottom = 198.936
+custom_fonts/font = SubResource( 1 )
+text = "CANDY SHOOTER"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="." instance=ExtResource( 3 )]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -71.0
+margin_top = 248.186
+margin_right = 71.0
+margin_bottom = 300.186
+text = "PLAY"
+next_scene_path = "res://src/Levels/Level1.tscn"
+
+[node name="Button2" type="Button" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -66.5
+margin_top = 379.848
+margin_right = 66.5
+margin_bottom = 415.848
+text = "Exit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="button_up" from="Button2" to="." method="_on_Button2_button_up"]
